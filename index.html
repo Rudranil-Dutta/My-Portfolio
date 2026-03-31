@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rudranil Dutta's Website</title>
+    <style>
+    body {
+        /* Clean gradient background */
+        background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+        color: white;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 0;
+        padding-top: 50px;
+    }
+
+    h1 {
+        background: linear-gradient(90deg, #00ffff, #ff00ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 50px;
+    }
+
+    h2 {
+        background: linear-gradient(90deg, #ffcc00, #ff6600);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-top: 40px;
+    }
+
+    p, .hobbies, .achievements, li, .skill {
+        background: rgba(0,0,0,0.5); /* dark semi-transparent for readability */
+        color: white;
+        padding: 15px 20px;
+        border-radius: 15px;
+        margin: 15px auto;
+        max-width: 700px;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin-top: 20px;
+    }
+
+    li {
+        width: 220px;
+        transition: transform 0.3s, background 0.3s;
+        cursor: pointer;
+    }
+
+    li:hover, .skill:hover {
+        transform: scale(1.1);
+        background: rgba(0,0,0,0.7);
+    }
+
+    .skills-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        gap: 15px;
+    }
+
+    .contact a {
+        color: #00ffff;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+
+    .contact a:hover {
+        color: #ff00ff;
+    }
+
+    .hobbies ul, .achievements ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        padding: 0;
+    }
+
+    .hobbies li, .achievements li {
+        padding: 10px 15px;
+    }
+    </style>
+</head>
+<body>
+
+    <h1>Hi, I'm Rudra 👋</h1>
+    <p>I am learning coding and building my future 🚀</p>
+
+    <h2>About Me</h2>
+    <p>
+        Hi 👋. I am a Class 11 student from India. At first, I wasn't really interested in computers, 
+        but when I came across Java in Class 9, I immediately started gaining interest in coding 💻. 
+        Since then, I have been exploring programming, starting with Java and now learning web development 🌐. <br><br>
+        I enjoy solving problems, building small projects, and constantly improving my skills. 
+        My goal is to pursue Computer Science in the USA and become a skilled software developer in the future 🚀.
+    </p>
+
+    <h2>My Projects</h2>
+    <ul>
+        <li>First Website (this portfolio)</li>
+        <li>Java Learning Projects</li>
+    </ul>
+
+    <h2>My Skills</h2>
+    <div class="skills-container">
+        <div class="skill">Java</div>
+        <div class="skill">HTML & CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Web Development</div>
+        <div class="skill">Problem Solving</div>
+    </div>
+
+    <h2>My Hobbies</h2>
+    <div class="hobbies">
+        <ul>
+            <li>Solving Rubik's Cubes 🧩</li>
+            <li>Playing Chess ♟️</li>
+            <li>Karate 🥋</li>
+            <li>Playing Football ⚽</li>
+        </ul>
+    </div>
+
+    <h2>Achievements</h2>
+    <div class="achievements">
+        <ul>
+            <li>15+ Medals in Karate 🏆</li>
+            <li>SOF Olympiad Top Positions 🥇🥈🥉</li>
+            <li>Gold, Silver & Bronze Medals 🏅</li>
+        </ul>
+    </div>
+
+    <h2>Contact Me</h2>
+    <p class="contact">
+        Email: <a href="mailto:mousumidutta2634@gmail.com">mousumidutta2634@gmail.com 📧</a><br>
+        Phone: <a href="tel:+918910120226">+91 89101 20226 📱</a><br>
+        LinkedIn: <a href="#">My Profile</a><br>
+        GitHub: <a href="#">GitHub</a>
+    </p>
+
+</body>
+</html>
